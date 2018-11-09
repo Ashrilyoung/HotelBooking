@@ -25,19 +25,23 @@ public class HotelBooking {
         System.out.println("What service would you like?");
         System.out.println("1: Book A room");
         System.out.println("2: Cancel a booking");
-        System.out.println("3: Exit");
+        System.out.println("3: View Available rooms");
+        System.out.println("4: Exit");
+        
         int choice = 0;
         choice = (int) choiceboard.nextInt();
 
         switch (choice) {
             case 1:
-                h1.display();
                 h1.bookARoom();
                 break;
             case 2:
                 h1.CancelARoom();
                 break;
             case 3:
+                h1.display();
+                break;
+            case 4:
                 System.exit(0);
             default:
                 System.out.println("That was not a valid input please follow the instructions on the screen");
@@ -48,6 +52,18 @@ public class HotelBooking {
 //        h1.display();
 //        h1.CancelARoom();
 //        h1.display();
+
+//		double cost =100;
+//		Customer occupiers[] = new Customer[10];
+//		occupiers[0] = new OrdinaryCustomer();
+//		occupiers[1] = new GoldCustomer();
+//
+//		occupiers[0].display();
+//		occupiers[0].calcCost(cost);
+//		
+//		occupiers[1].display();
+//		occupiers[1].calcCost(cost);
+
 
     }
 

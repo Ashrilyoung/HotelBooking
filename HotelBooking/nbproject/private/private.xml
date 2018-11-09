@@ -3,11 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/HotelBooking/src/hotelbooking/floor.java</file>
-            <file>file:/E:/HotelBooking/src/hotelbooking/Hotel.java</file>
-            <file>file:/E:/HotelBooking/src/hotelbooking/room.java</file>
-            <file>file:/E:/HotelBooking/src/hotelbooking/HotelBooking.java</file>
-            <file>file:/E:/HotelBooking/src/hotelbooking/Customer.java</file>
+            <file>file:/B:/HotelBooking/src/hotelbooking/floor.java</file>
+            <file>file:/B:/HotelBooking/src/hotelbooking/OrdinaryCustomer.java</file>
+            <file>file:/B:/HotelBooking/src/hotelbooking/Customer.java</file>
+            <file>file:/B:/HotelBooking/src/hotelbooking/HotelBooking.java</file>
+            <file>file:/B:/HotelBooking/src/hotelbooking/GoldCustomer.java</file>
+            <file>file:/B:/HotelBooking/src/hotelbooking/room.java</file>
+            <file>file:/B:/HotelBooking/src/hotelbooking/Hotel.java</file>
         </group>
     </open-files>
 </project-private>

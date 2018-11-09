@@ -30,6 +30,7 @@ public class floor {
     }
 
     public void displayFloor() {
+        System.out.println("Floor " + floornumber);
         for (int counter = 0; counter < rooms.length; counter++) {
             rooms[counter].display();
         }
@@ -44,6 +45,7 @@ public class floor {
         nos = kboard.nextInt();
         System.out.println("Floor: " + floornumber);
         for (counter = 0; counter < rooms.length; counter++) {
+            System.out.println(rooms.length);
             if (nos == rooms[counter].returnRoomNos()) {
                 found = true;
                 rooms[counter].bookroom();
